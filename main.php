@@ -14,7 +14,7 @@
 		   DropzoneOptions.method = "post";
 		   DropzoneOptions.paramName = "uploaded_files";
 		   DropzoneOptions.uploadMultiple = "true";
-		   DropzoneOptions.maxFilesize= 1000; // MB
+		   DropzoneOptions.maxFilesize= 5000; // MB
 		   //DropzoneOptions.maxFiles= 100,
 		   DropzoneOptions.acceptedFiles= ".wav,.mp3,.m4a,.mp4,.jpg,.png,.psd,srt";
 		   DropzoneOptions.autoProcessQueue= true;
