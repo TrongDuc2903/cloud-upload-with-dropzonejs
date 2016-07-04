@@ -12,7 +12,7 @@
 	       DropzoneOptions = {};
 	   	   DropzoneOptions.url = ""+TheUploadURL+"";
 		   DropzoneOptions.method = "post";
-		   DropzoneOptions.paramName = "uploaded_files";
+		   DropzoneOptions.paramName = "uthrilluploads";
 		   DropzoneOptions.uploadMultiple = "true";
 		   DropzoneOptions.maxFilesize= 5000; // MB
 		   //DropzoneOptions.maxFiles= 100,
