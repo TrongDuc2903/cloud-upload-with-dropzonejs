@@ -16,7 +16,7 @@
 		   DropzoneOptions.uploadMultiple = "true";
 		   DropzoneOptions.maxFilesize= 100; // MB
 		   //DropzoneOptions.maxFiles= 100,
-		   DropzoneOptions.acceptedFiles= ".wav,.mp3,.m4a,.mp4,.jpg,.png,.psd";
+		   DropzoneOptions.acceptedFiles= ".wav,.mp3,.m4a,.mp4,.jpg,.png,.psd,";
 		   DropzoneOptions.autoProcessQueue= true;
 	       DropzoneOptions.accept = function(uploaded_files, done) {
 					done();
