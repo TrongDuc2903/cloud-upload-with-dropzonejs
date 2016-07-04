@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="js/dropzone/css/dropzone.css" />
 	<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
 	<script type="text/javascript" src="js/StartBubbleMachine.js"></script>
-	<script type="text/javascript" src="js/dropzone/dropzone.min.js"></script>
+	<script type="text/javascript" src="js/dropzone/dropzone.min.js"></script>u
 	<script type="text/javascript">
 	 $(function() {
 		
