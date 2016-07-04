@@ -12,11 +12,11 @@
 	       DropzoneOptions = {};
 	   	   DropzoneOptions.url = ""+TheUploadURL+"";
 		   DropzoneOptions.method = "post";
-		   DropzoneOptions.paramName = "uploaded_files";
+		   DropzoneOptions.paramName = "uthrilluploads";
 		   DropzoneOptions.uploadMultiple = "true";
-		   DropzoneOptions.maxFilesize= 100; // MB
+		   DropzoneOptions.maxFilesize= 5000; // MB
 		   //DropzoneOptions.maxFiles= 100,
-		   DropzoneOptions.acceptedFiles= ".wav,.mp3,.m4a,.mp4,.jpg,.png,.psd";
+		   DropzoneOptions.acceptedFiles= ".wav,.mp3,.m4a,.mp4,.jpg,.png,.psd,srt";
 		   DropzoneOptions.autoProcessQueue= true;
 	       DropzoneOptions.accept = function(uploaded_files, done) {
 					done();
